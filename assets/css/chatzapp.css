@@ -1,0 +1,18 @@
+/* Frontend style */
+
+.chatzapp_button {
+    bottom: 30px;
+    height: 60px;
+    overflow: hidden;
+    position: fixed;
+    right: 30px;
+    width: 60px;
+    z-index: 99999;
+}
+
+@media (max-width: 768px) {
+    .chatzapp_button {
+        bottom: 10%;
+        right: 15px;
+    }
+}
