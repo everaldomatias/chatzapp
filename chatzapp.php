@@ -20,3 +20,8 @@ function chatzapp_plugin_activate() {
 }
 
 register_activation_hook( __FILE__, 'chatzapp_plugin_activate' );
+
+define( 'CHATZAPP_PATH', plugins_url( '/', __FILE__ ) );
+
+require_once( 'includes/enqueues.php' );
+require_once( 'includes/settings.php' );
